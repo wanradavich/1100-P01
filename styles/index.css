@@ -1,8 +1,11 @@
 /*shared overall styles*/
 body{
     min-height: 100vh;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
+    margin: 0;
 }
 
 /*navbar/
@@ -14,6 +17,102 @@ body{
 /*our-team*/
 
 /*login*/
+#main{
+    width: 32em;
+    height: 32em;
+    margin: 0 auto;
+}
+
+.form-box{
+    background-color: rgb(60, 60, 46);
+    padding: 2em;   
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 17em;
+    height: 17em;
+    margin: 2em;
+    border-radius: 1em;
+}
+
+label{
+    display: block;
+    line-height: 2em;
+    display: flex;
+    color: antiquewhite;
+}
+
+input{
+    display: block;
+    width: 20em;
+    display: flex;
+    border-radius: .5em;
+    height: 1.5em;
+}
+
+#login-btn{
+    margin-top: 2em;
+    height: 2em;
+    width: 20em;
+    background-color: rgb(61, 139, 61);
+    border-radius: .25em;
+    color: rgb(227, 222, 158);
+    margin-top: 2.5em;
+}
+
+/*media*/
+/*login page*/
+/*Phone*/
+@media (max-width: 767px) {
+    body {
+        min-width: 320px;
+        font-size: 1em;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+    body {
+        font-size: 1.5em;
+    }
+
+    .input{
+        width: 22em;
+        height: 2em;
+        }
+
+    #login-btn{
+        height: 3em;
+        width: 21em;
+        margin-top: 2.5em;
+    }
+}
+
+/*Desktop*/
+@media (min-width: 1024px) {
+    body {
+        font-size: 2em;
+        max-width: 1920px;
+    }
+
+    .input{
+        width: 23em;
+        height: 2.5em;
+        }
+    
+    #login-btn{
+        height: 4em;
+        width: 22em;
+        margin-top: 2.5em;
+    }
+
+}
+
+
 
 
 
