@@ -12,6 +12,60 @@ body{
 /*navbar/
 
 /*index*/
+.color-gradient{
+    background: linear-gradient(to right, #556B2F, #8B4513);
+    border-radius: 1em;
+    padding: .5em;
+}
+
+.index-img{
+    height: 30em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+#main{
+    background-color: rgb(60, 60, 46, 0.8);
+    width: 80em;
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    border-radius: 1em;
+}
+
+.description{
+    margin: 0 auto;
+    margin-right: 1em;
+    margin-top: 1em;
+    width: 20em;
+    color: antiquewhite;
+    font-size: 1.5em;
+    
+}
+
+.description>h1{
+    text-align: center;
+    margin-bottom: 1em;
+    line-height: 3em;
+}
+
+.description>p{
+    margin: 0 auto;
+    width: 20em;
+    text-align: center;
+}
+
+.color-container{
+    background-color: black;
+    height: 30em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 /*about*/
 
