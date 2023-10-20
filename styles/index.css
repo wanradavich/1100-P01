@@ -9,89 +9,7 @@ body{
     background-size:cover;
 }
 
-/*navbar/
 
-/*index*/
-.color-gradient{
-    background: linear-gradient(to right, #556B2F, #8B4513);
-    border-radius: 1em;
-    padding: .5em;
-}
-
-.index-img{
-    height: 30em;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
-}
-
-#main{
-    background-color: rgb(60, 60, 46, 0.8);
-    width: 80em;
-    height: 35em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-    border-radius: 1em;
-}
-
-.description{
-    margin: 0 auto;
-    margin-right: 1em;
-    margin-top: 1em;
-    width: 20em;
-    color: antiquewhite;
-    font-size: 1.5em;
-    
-}
-
-.description>h1{
-    text-align: center;
-    margin-bottom: 1em;
-    line-height: 3em;
-}
-
-.description>p{
-    margin: 0 auto;
-    width: 20em;
-    text-align: center;
-}
-
-.color-container{
-    background-color: black;
-    height: 30em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-/*about*/
-
-/*our-team*/
-
-/*login*/
-
-
-
-/*shared overall styles*/
-body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    margin: 0;
-}
-
-/*navbar/
-
-/*index*/
-
-/*about*/
-
-/*our-team*/
 
 /*login*/
 #main{
@@ -143,18 +61,18 @@ input{
     margin-top: 2.5em;
 }
 
-/*media*/
+/* media */
 /*login page*/
 /*Phone*/
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     body {
         min-width: 320px;
         font-size: 1em;
     }
-}
+} */
 
 /*Tablet*/
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     body {
         font-size: 1.5em;
     }
@@ -169,10 +87,10 @@ input{
         width: 21em;
         margin-top: 2.5em;
     }
-}
+} */
 
 /*Desktop*/
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
     body {
         font-size: 2em;
         max-width: 1920px;
@@ -189,7 +107,7 @@ input{
         margin-top: 2.5em;
     }
 
-}
+} */
 
 
 
