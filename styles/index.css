@@ -10,7 +10,7 @@ body{
 }
 
 /*index*/
-.color-gradient{
+.index-color-gradient{
     background: linear-gradient(to right, #556B2F, #8B4513);
     border-radius: 1em;
     padding: .5em;
@@ -22,7 +22,7 @@ body{
     border-bottom-left-radius: 1em;
 }
 
-#main{
+#index-main{
     background-color: rgb(60, 60, 46, 0.8);
     width: 80em;
     height: 35em;
@@ -33,7 +33,7 @@ body{
     border-radius: 1em;
 }
 
-.description{
+.index-description{
     margin: 0 auto;
     margin-right: 1em;
     margin-top: 1em;
@@ -43,19 +43,19 @@ body{
     
 }
 
-.description>h1{
+.index-description>h1{
     text-align: center;
     margin-bottom: 1em;
     line-height: 3em;
 }
 
-.description>p{
+.index-description>p{
     margin: 0 auto;
     width: 20em;
     text-align: center;
 }
 
-.color-container{
+.index-color-container{
     background-color: black;
     height: 30em;
     border-top-right-radius: 1em;
@@ -66,7 +66,7 @@ body{
 }
 
 /*login*/
-#main{
+#login-main{
     width: 32em;
     height: 32em;
     margin: 0 auto;
@@ -82,16 +82,16 @@ body{
     margin-top: 20%;
 }
 
-.logo{
-    width: 7em;
-    height: 7em;
+.login-logo{
+    width: 15em;
+    height: 15em;
     margin: 2em;
     border-radius: 1em;
 }
 
 label{
     display: block;
-    font-size: .5em;
+    font-size: 1em;
     line-height: 2em;
     display: flex;
     color: antiquewhite;
