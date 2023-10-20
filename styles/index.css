@@ -1,14 +1,18 @@
 /*shared overall styles*/
 body{
     min-height: 100vh;
-    margin: 0 auto;
-    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*navbar/
 
 /*index*/
-
+.index-img{
+    width: 18em;
+    height: 15em;
+}
 /*about*/
 
 /*our-team*/
