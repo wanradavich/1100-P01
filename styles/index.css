@@ -3,6 +3,8 @@ body{
     min-height: 100vh;
     margin: 0 auto;
     box-sizing: border-box;
+    background-image: url('../images/img1.JPG');
+    background-size:cover;
 }
 
 /*navbar/
@@ -43,23 +45,25 @@ body{
 }
 
 .form-box{
-    background-color: rgb(60, 60, 46);
+    background-color: rgb(60, 60, 46, 0.8);
     padding: 2em;   
     border-radius: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20%;
 }
 
 .logo{
-    width: 17em;
-    height: 17em;
+    width: 7em;
+    height: 7em;
     margin: 2em;
     border-radius: 1em;
 }
 
 label{
     display: block;
+    font-size: .5em;
     line-height: 2em;
     display: flex;
     color: antiquewhite;
@@ -76,7 +80,7 @@ input{
 #login-btn{
     margin-top: 2em;
     height: 2em;
-    width: 20em;
+    width: 15em;
     background-color: rgb(61, 139, 61);
     border-radius: .25em;
     color: rgb(227, 222, 158);
@@ -124,8 +128,8 @@ input{
         }
     
     #login-btn{
-        height: 4em;
-        width: 22em;
+        height: 3em;
+        width: 20em;
         margin-top: 2.5em;
     }
 
