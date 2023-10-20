@@ -1,4 +1,3 @@
-/*shared overall styles*/
 body{
     box-sizing: border-box;
     min-height: 100vh;
@@ -7,6 +6,62 @@ body{
     align-items: center;
     background-image: url('../images/img1.JPG');
     background-size:cover;
+    font-family: "Lexend Deca";
+}
+
+/*navbar*/
+#header{
+    position: absolute;
+    width: 100%;
+    height: 10em;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(28, 32, 28);
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: antiquewhite;
+}
+
+.navbar-logo{
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+}
+
+#navbar{  
+    width: 80em;
+    height: 3em;
+    margin: 1.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-links{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 15em;
+    font-size: 2em;
+}
+
+/*footer*/
+#footer {
+    color: white; 
+    text-align: center;
+    padding: 1em; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /*index*/
@@ -44,6 +99,7 @@ body{
 }
 
 .index-description>h1{
+    font-size: 1.2em;
     text-align: center;
     margin-bottom: 1em;
     line-height: 3em;
@@ -79,7 +135,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .login-logo{
