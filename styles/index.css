@@ -1,7 +1,9 @@
 /*shared overall styles*/
 body{
     min-height: 100vh;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     background-image: url('../images/img1.JPG');
     background-size:cover;
