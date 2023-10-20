@@ -10,8 +10,25 @@ body{
 
 /*index*/
 .index-img{
-    width: 18em;
-    height: 15em;
+    width: 40em;
+    height: 30em;
+    border-radius: 1em;
+}
+
+#main{
+    width: 80em;
+    height: 35em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 20%;
+}
+
+.description{
+    width: 35em;
+}
+
+.description>p{
+    width: 25em;
 }
 /*about*/
 
