@@ -3,10 +3,20 @@ body{
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     background-image: url('../images/img1.JPG');
     background-size:cover;
     font-family: "Lexend Deca";
+}
+
+/*footer*/
+#footer {
+    color: white; 
+    text-align: center;
+    padding: 1em; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /*navbar*/
@@ -54,16 +64,6 @@ a{
     font-size: 2em;
 }
 
-/*footer*/
-#footer {
-    color: white; 
-    text-align: center;
-    padding: 1em; 
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 /*index*/
 .index-color-gradient{
     background: linear-gradient(to right, #556B2F, #8B4513);
@@ -84,7 +84,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 15%;
     border-radius: 1em;
 }
 
@@ -125,7 +125,7 @@ a{
 #login-main{
     width: 32em;
     height: 32em;
-    margin: 0 auto;
+    margin-top: 10%;
 }
 
 .form-box{
@@ -171,6 +171,7 @@ input{
     margin-top: 2.5em;
 }
 
+/*about*/
 .about-information {
     background-color: rgb(60, 60, 46, 0.8);
     width: 60em;
@@ -225,6 +226,11 @@ input{
     margin: 2%;
 }
 
+.about-main{
+    height: 200em;
+}
+
+
 
 /* media */
 /*login page*/
@@ -273,8 +279,3 @@ input{
     }
 
 } */
-
-
-
-
-
