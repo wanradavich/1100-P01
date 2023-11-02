@@ -40,9 +40,10 @@ a{
 }
 
 .navbar-logo{
-    width: 7em;
-    height: 7em;
+    width: 5em;
+    height: 5em;
     border-radius: 50%;
+
 }
 
 #navbar{  
@@ -61,7 +62,7 @@ a{
     justify-content: space-around;
     margin-top: 50px;
     width: 15em;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 /*index*/
@@ -72,18 +73,18 @@ a{
 }
 
 .index-img{
-    height: 33em;
+    height: 15em;
     border-radius: 1em;
 }
 
 #index-main{
     background-color: rgb(60, 60, 46, 0.8);
-    width: 55em;
-    height: 71em;
+    width: 28em;
+    height: 35em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 40%;
     border-radius: 1em;
 }
 
@@ -91,7 +92,7 @@ a{
     margin: 0 auto;
     width: 20em;
     color: antiquewhite;
-    font-size: 1.5em;
+    font-size: 1em;
 
 }
 
@@ -105,7 +106,7 @@ a{
 
 .index-color-container{
     background-color: black;
-    height: 30em;
+    height: 15em;
     border-radius: 1em;
 }
 
@@ -221,50 +222,118 @@ input{
 
 
 
-/* media */
-/*login page*/
-/*Phone*/
-/* @media (max-width: 767px) {
-    body {
-        min-width: 320px;
-        font-size: 1em;
+/* tablet */
+@media (min-width: 768px) {
+    .index-img{
+        height: 20em;
+        border-radius: 1em;
     }
-} */
-
-/*Tablet*/
-/* @media (min-width: 768px) {
-    body {
-        font-size: 1.5em;
-    }
-
-    .input{
-        width: 22em;
-        height: 2em;
-        }
-
-    #login-btn{
-        height: 3em;
-        width: 21em;
-        margin-top: 2.5em;
-    }
-} */
-
-/*Desktop*/
-/* @media (min-width: 1024px) {
-    body {
-        font-size: 2em;
-        max-width: 1920px;
-    }
-
-    .input{
-        width: 23em;
-        height: 2.5em;
-        }
     
-    #login-btn{
-        height: 3em;
+    #index-main{
+        background-color: rgb(60, 60, 46, 0.8);
+        width: 35em;
+        height: 42em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25%;
+        border-radius: 1em;
+    }
+    
+    .index-description{
+        margin: 0 auto;
         width: 20em;
-        margin-top: 2.5em;
+        color: antiquewhite;
+        font-size: 1em;
+    
+    }
+    
+    .index-description>h1{
+        font-size: 1.2em;
+        text-align: center;
+        margin-bottom: 1em;
+        line-height: 3em;
+    }
+    
+    
+    .index-color-container{
+        background-color: black;
+        height: 15em;
+        border-radius: 1em;
+    }
+}
+
+/* desktop */
+@media (min-width: 1024px) {
+    .navbar-logo{
+        width: 7em;
+        height: 7em;
+        border-radius: 50%;
+    }
+    
+    #navbar{  
+        width: 80em;
+        height: 3em;
+        margin: 1.8em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .nav-links{
+        float: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 50px;
+        width: 15em;
+        font-size: 2em;
     }
 
-} */
+/*index*/
+.index-color-gradient{
+    background: linear-gradient(to right, #556B2F, #8B4513);
+    border-radius: 1em;
+    padding: .5em;
+}
+
+.index-img{
+    height: 33em;
+    border-radius: 1em;
+}
+
+#index-main{
+    background-color: rgb(60, 60, 46, 0.8);
+    width: 55em;
+    height: 71em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    border-radius: 1em;
+}
+
+.index-description{
+    margin: 0 auto;
+    width: 20em;
+    color: antiquewhite;
+    font-size: 1.5em;
+
+}
+
+.index-description>h1{
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1em;
+    line-height: 3em;
+}
+
+
+.index-color-container{
+    background-color: black;
+    height: 30em;
+    border-radius: 1em;
+}
+    
+} 
+
