@@ -232,6 +232,31 @@ input{
     height: 200em;
 }
 
+/* our team css */
+
+.team {
+    margin-top: 20%;
+  }
+  
+  .team h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #333;
+  }
+  .team p {
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+    font-size:0.9em;
+  }
+  
+  .team_member_1,
+  .team_member_2,
+  .team_member_3,
+  {
+    width: 50%;
+    float: left;
+  }
+
 
 
 /* media */
