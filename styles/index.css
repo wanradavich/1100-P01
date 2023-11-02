@@ -15,7 +15,6 @@ body{
     color: white; 
     text-align: center;
     padding: 1em; 
-    /* position: absolute; */
     bottom: 0;
     width: 100%;
 }
@@ -73,15 +72,14 @@ a{
 }
 
 .index-img{
-    height: 30em;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
+    height: 33em;
+    border-radius: 1em;
 }
 
 #index-main{
     background-color: rgb(60, 60, 46, 0.8);
-    width: 80em;
-    height: 35em;
+    width: 55em;
+    height: 71em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,12 +89,10 @@ a{
 
 .index-description{
     margin: 0 auto;
-    margin-right: 1em;
-    margin-top: 1em;
     width: 20em;
     color: antiquewhite;
     font-size: 1.5em;
-    
+
 }
 
 .index-description>h1{
@@ -106,20 +102,11 @@ a{
     line-height: 3em;
 }
 
-.index-description>p{
-    margin: 0 auto;
-    width: 20em;
-    text-align: center;
-}
 
 .index-color-container{
     background-color: black;
     height: 30em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    border-radius: 1em;
 }
 
 /*login*/
