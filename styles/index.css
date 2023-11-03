@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     box-sizing: border-box;
     min-height: 100vh;
@@ -16,7 +20,7 @@ body{
 #footer {
     color: white; 
     text-align: center;
-    padding: 1em; 
+    padding: 16px; 
     bottom: 0;
     width: 100%;
     font-size: smaller;
@@ -26,7 +30,7 @@ body{
 #header{
     /* position: absolute; */
     width: 100%;
-    height: 10em;
+    height: 160px;
     top: 0;
     display: flex;
     flex-direction: row;
@@ -43,15 +47,15 @@ a{
 }
 
 .navbar-logo{
-    width: 5em;
-    height: 5em;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    margin-top: 2.5em;
+    margin-top: 40px;
 }
 
 #navbar{  
-    width: 80em;
-    height: 3em; 
+    width: 100%;
+    height: 48px; 
     display: flex;
     justify-content: center;
 }
@@ -59,54 +63,58 @@ a{
 .nav-links{
     text-align: right;
     justify-content: space-around;
-    line-height: 2em;
-    font-size: 1em;
+    line-height: 32px;
+    font-size: 16px;
 }
 
 /*index*/
 .index-color-gradient{
     background: linear-gradient(to right, #556B2F, #8B4513);
     border-radius: 1em;
-    padding: .5em;
+    padding: 8px;
 }
 
 .index-img{
-    height: 15em;
-    border-radius: 1em;
+    height: 165px;
+    border-radius: 16px;
 }
 
 #index-main{
     background-color: rgb(60, 60, 46, 0.8);
-    width: 28em;
-    height: 35em;
+    width: 90%;
+    height: 410px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40%;
-    border-radius: 1em;
+    margin-top: 30px;
+    border-radius: 16px;
 }
 
 .index-description{
     margin: 0 auto;
-    width: 20em;
+    width: 320px;
     color: antiquewhite;
-    font-size: 1em;
-
+    font-size: 11px;
+    text-align: center;
 }
 
 .index-description>h1{
-    font-size: 1.2em;
+    font-size: 15px;
     text-align: center;
-    margin-bottom: 1em;
-    line-height: 3em;
+    margin-bottom: 16px;
+    line-height: 48px;
 }
 
 
 .index-color-container{
     background-color: black;
-    height: 15em;
-    border-radius: 1em;
+    height: 200px;
+    border-radius: 16px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 /*login*/
 #login-main{
@@ -219,119 +227,63 @@ input{
 }
 
 
-
-/* tablet */
+/* Home Page*/
+/* Home - tablet */
 @media (min-width: 768px) {
-    .index-img{
-        height: 20em;
-        border-radius: 1em;
-    }
-    
-    #index-main{
-        background-color: rgb(60, 60, 46, 0.8);
-        width: 35em;
-        height: 42em;
+    #navbar{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 25%;
-        border-radius: 1em;
+        justify-content: space-around;
     }
-    
+
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+        height: 300px;
+        margin-top: 80px;
+        font-size: large;
+    }
+
+    #index-main{
+        height: 700px;
+    }
+
+    .index-color-container{
+        width: 600px;
+    }
+
+    .index-img{
+        height: 400px;
+    }
+}
+/* Home - desktop */
+@media (min-width: 1024px) {
+    .navbar-logo{
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    .index-color-container{
+      height: 230px;
+    }
+
+    .index-img{
+        height: 300px;
+    }
+
     .index-description{
         margin: 0 auto;
-        width: 20em;
+        width: 320px;
         color: antiquewhite;
-        font-size: 1em;
-    
+        font-size: 13px;
+        text-align: center;
     }
     
     .index-description>h1{
-        font-size: 1.2em;
-        text-align: center;
-        margin-bottom: 1em;
-        line-height: 3em;
+        font-size: 20px;
     }
-    
-    
-    .index-color-container{
-        background-color: black;
-        height: 15em;
-        border-radius: 1em;
-    }
-}
-
-/* desktop */
-@media (min-width: 1024px) {
-    .navbar-logo{
-        width: 7em;
-        height: 7em;
-        border-radius: 50%;
-    }
-    
-    #navbar{  
-        width: 80em;
-        height: 3em;
-        margin: 1.8em;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    
-    .nav-links{
-        float: right;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 50px;
-        width: 15em;
-        font-size: 2em;
-    }
-
-/*index*/
-.index-color-gradient{
-    background: linear-gradient(to right, #556B2F, #8B4513);
-    border-radius: 1em;
-    padding: .5em;
-}
-
-.index-img{
-    height: 33em;
-    border-radius: 1em;
-}
-
-#index-main{
-    background-color: rgb(60, 60, 46, 0.8);
-    width: 55em;
-    height: 71em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15%;
-    border-radius: 1em;
-}
-
-.index-description{
-    margin: 0 auto;
-    width: 20em;
-    color: antiquewhite;
-    font-size: 1.5em;
-
-}
-
-.index-description>h1{
-    font-size: 1.2em;
-    text-align: center;
-    margin-bottom: 1em;
-    line-height: 3em;
-}
-
-
-.index-color-container{
-    background-color: black;
-    height: 30em;
-    border-radius: 1em;
-}
-    
 } 
+/* login page */
+
 
