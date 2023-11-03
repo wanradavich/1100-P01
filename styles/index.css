@@ -8,6 +8,8 @@ body{
     background-image: url('../images/img1.JPG');
     background-size:cover;
     font-family: "Lexend Deca";
+    padding: 0;
+    margin: 0;
 }
 
 /*footer*/
@@ -17,11 +19,12 @@ body{
     padding: 1em; 
     bottom: 0;
     width: 100%;
+    font-size: smaller;
 }
 
 /*navbar*/
 #header{
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 10em;
     top: 0;
@@ -43,25 +46,20 @@ a{
     width: 5em;
     height: 5em;
     border-radius: 50%;
-
+    margin-top: 2.5em;
 }
 
 #navbar{  
     width: 80em;
-    height: 3em;
-    margin: 1.8em;
+    height: 3em; 
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .nav-links{
-    float: right;
-    display: flex;
-    flex-direction: row;
+    text-align: right;
     justify-content: space-around;
-    margin-top: 50px;
-    width: 15em;
+    line-height: 2em;
     font-size: 1em;
 }
 
