@@ -115,56 +115,50 @@ a{
     flex-wrap: wrap;
 }
 
-
 /*login*/
-#login-main{
-    width: 32em;
-    height: 32em;
-    margin-top: 10%;
-    margin-bottom: 5%;
-}
-
 .form-box{
     background-color: rgb(60, 60, 46, 0.8);
-    padding: 2em;   
-    border-radius: 2em;
+    width: 275px;
+    height: 500px;
+    padding: 32px;   
+    border-radius: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 30px;
 }
 
 .login-logo{
-    width: 15em;
-    height: 15em;
-    margin: 2em;
-    border-radius: 1em;
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    margin-bottom: 20px;
 }
 
 label{
     display: block;
-    font-size: 1em;
-    line-height: 2em;
+    font-size: 12px;
+    line-height: 32px;
     display: flex;
     color: antiquewhite;
 }
 
 input{
     display: block;
-    width: 20em;
+    width: 200px;
     display: flex;
-    border-radius: .5em;
-    height: 1.5em;
+    border-radius: 10px;
+    height: 32px;
 }
 
 #login-btn{
-    margin-top: 2em;
-    height: 2em;
-    width: 15em;
+    margin-top: 32px;
+    height: 32px;
+    width: 240px;
     background-color: rgb(61, 139, 61);
-    border-radius: .25em;
+    border-radius: 5px;
     color: rgb(227, 222, 158);
-    margin-top: 2.5em;
+    margin-top: 35px;
 }
 
 /*about*/
@@ -284,6 +278,38 @@ input{
         font-size: 20px;
     }
 } 
-/* login page */
+/* Login page */
+/* Login tablet */
+@media (min-width: 768px){
+    .login-logo{
+        margin-bottom: 50px;
+    }
 
+    .login-btn{
+        width: 500px;
+    }
 
+    .form-box{
+        width: 700px;
+    }
+
+    label{
+        font-size: 14px;
+    }
+
+    input{
+        width: 300px;
+    }
+}
+
+/* Login - desktop */
+@media (min-width: 1024px){
+    .login-logo{
+        width: 300px;
+        height: 300px;
+    }
+
+    .form-box{
+        height: 600px;
+    }
+}
