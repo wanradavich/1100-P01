@@ -247,7 +247,8 @@ input{
     }
 
     .index-img{
-        height: 400px;
+      width: 600px;
+      height: 400px;
     }
 }
 /* Home - desktop */
@@ -258,12 +259,17 @@ input{
         margin-top: 30px;
     }
 
+    #index-main{
+        height: 800px;
+    }
     .index-color-container{
       height: 230px;
+      width: 800px;
     }
 
     .index-img{
-        height: 300px;
+        height: 450px;
+        width: 800px;
     }
 
     .index-description{
