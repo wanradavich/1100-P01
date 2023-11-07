@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap" rel="stylesheet"/>
     <title>Our Team</title>
 </head>
 <body>
-    <header id="header">
-        <nav id="navbar">
-        <img class="navbar-logo" src="./images/mock-image.jpg" alt="navbar logo"/>
+  <header id="header">
+    <nav id="navbar">
+        <img class="navbar-logo" src="./images/mock-image.jpg" alt="navbar logo">
         <ul class="nav-links">
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about.html">About</a></li>
             <li><a href="./our-team.html">Our Team</a></li>
             <li><a href="./login.html">Login</a></li>
         </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="wrapper">
-          <section class="team">
-            <h1>Our Team</h1>
+    </nav>
+</header>
+    <main id="our-team-main">
+        <div class="our-team">
+          <section class="team-profile">
+            <h1 id="our-team-title">Your Travel Experts</h1>
   
             <!-- Pat profile  -->
             <article class="team_member_1">
@@ -31,8 +34,13 @@
                   class="src"
                 /> -->
                 <h3>Pat</h3>
-                <p>
-                  About Pat
+                <p class = 'about-team'>
+                  "Passionate about the natural beauty of Vancouver Island, I am an avid hiker with a deep love for the 
+                  great outdoors. With every step I take on this breathtaking island, I find myself captivated by its 
+                  diverse landscapes, from lush rainforests to rugged coastlines. Exploring its many trails and peaks 
+                  has become a way of life for me, and I am always eager to share my experiences and knowledge with fellow hikers.
+                  Whether it's the thrill of conquering a challenging summit or the serenity of a leisurely forest walk, 
+                  Vancouver Island's stunning vistas and diverse ecosystems continue to inspire and fuel my love for adventure in the wild."
                 </p>
             </article>
   
@@ -44,8 +52,15 @@
                   class="src"
                 /> -->
                 <h3>Clayton</h3>
-                <p>
-                  About Clayton
+                <p class = "about-team">
+                  "Dedicated to the art of birdwatching, I am an ardent enthusiast who has been captivated by the avian 
+                  wonders of Vancouver Island for over a decade. With over a hundred species checked off my list, 
+                  I've made it a mission to explore every nook and cranny of this island, from its coastal shores 
+                  to the lush rainforests, in search of our feathered friends. Vancouver Island's diverse ecosystems 
+                  provide a unique and rewarding canvas for my passion, and I'm always eager to share my sightings, 
+                  knowledge, and the sheer joy that comes from observing these magnificent creatures in their natural 
+                  habitats. My binoculars and field guide are my constant companions, and every outing is an opportunity 
+                  to uncover the hidden treasures of Vancouver Island's vibrant birdlife."
                 </p>
             </article>
   
@@ -57,16 +72,22 @@
                   class="src"
                 /> -->
                 <h3>Eunice</h3>
-                <p>
-                    About Eunice
+                <p class = "about-team">
+                  "As a dedicated Vancouver Island mushroom forager, I am driven by an insatiable curiosity for the hidden 
+                  wonders of our island's forests. With a keen eye for fungi and a deep respect for the delicate balance of 
+                  nature, I've spent countless hours exploring the lush woodlands, uncovering the incredible diversity of 
+                  mushrooms that call this island home. From the enchanting world of chanterelles and morels to the elusive 
+                  beauty of mycorrhizal networks, my journey as a mushroom forager has been a lifelong passion. I'm committed 
+                  to not only learning and identifying these remarkable organisms but also to sharing my knowledge with others 
+                  who share my enthusiasm for the mycological mysteries that thrive on Vancouver Island."
                 </p>
             </article>
           </section>
         </div>
       </main>
-      <footer>
+      <footer id="footer">
         <p>&copy; Clayton Eunice Pat</p>
       </footer>
-    <script src="/scripts/index.js"></script>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>

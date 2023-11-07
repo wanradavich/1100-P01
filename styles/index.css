@@ -372,3 +372,58 @@ input {
     max-width: 40%;
   }
 }
+
+
+/* about us page */
+
+
+.our-team {
+    background-color: rgb(60, 60, 46, 0.8);
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 1em;
+}
+
+.team-profile {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+}
+
+#our-team-title {
+    display: flex;
+    justify-content: center;
+}
+
+.about-team{
+    display:flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+}
+.team {
+    margin-top: 20%;
+  }
+  
+  .team h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #333;
+  }
+  .team p {
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+    font-size:10px;
+  }
+  
+  .team_member_1,
+  .team_member_2,
+  .team_member_3
+  {
+    width: 50%;
+    float: left;
+  }
