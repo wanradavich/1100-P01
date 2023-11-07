@@ -1,270 +1,365 @@
-body{
-    box-sizing: border-box;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('../images/img1.JPG');
-    background-size:cover;
-    font-family: "Lexend Deca";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/img1.JPG");
+  background-size: cover;
+  font-family: "Lexend Deca";
+  padding: 0;
+  margin: 0;
 }
 
 /*footer*/
 #footer {
-    color: white; 
-    text-align: center;
-    padding: 1em; 
-    bottom: 0;
-    width: 100%;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  bottom: 0;
+  width: 100%;
+  font-size: smaller;
 }
 
 /*navbar*/
-#header{
-    position: absolute;
-    width: 100%;
-    height: 10em;
-    top: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgb(28, 32, 28);
+#header {
+  /* position: absolute; */
+  width: 100%;
+  height: 160px;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(28, 32, 28);
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
-a{
-    color: antiquewhite;
+a {
+  color: antiquewhite;
 }
 
-.navbar-logo{
-    width: 7em;
-    height: 7em;
-    border-radius: 50%;
+.navbar-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 40px;
 }
 
-#navbar{  
-    width: 80em;
-    height: 3em;
-    margin: 1.8em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+#navbar {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
 }
 
-.nav-links{
-    float: right;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 50px;
-    width: 15em;
-    font-size: 2em;
+.nav-links {
+  text-align: right;
+  justify-content: space-around;
+  line-height: 32px;
+  font-size: 16px;
 }
 
 /*index*/
-.index-color-gradient{
-    background: linear-gradient(to right, #556B2F, #8B4513);
-    border-radius: 1em;
-    padding: .5em;
+.index-color-gradient {
+  background: linear-gradient(to right, #556b2f, #8b4513);
+  border-radius: 1em;
+  padding: 8px;
 }
 
-.index-img{
-    height: 33em;
-    border-radius: 1em;
+.index-img {
+  height: 165px;
+  border-radius: 16px;
 }
 
-#index-main{
-    background-color: rgb(60, 60, 46, 0.8);
-    width: 55em;
-    height: 71em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15%;
-    border-radius: 1em;
+#index-main {
+  background-color: rgb(60, 60, 46, 0.8);
+  width: 90%;
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 16px;
 }
 
-.index-description{
-    margin: 0 auto;
-    width: 20em;
-    color: antiquewhite;
-    font-size: 1.5em;
-
+.index-description {
+  margin: 0 auto;
+  width: 320px;
+  color: antiquewhite;
+  font-size: 11px;
+  text-align: center;
 }
 
-.index-description>h1{
-    font-size: 1.2em;
-    text-align: center;
-    margin-bottom: 1em;
-    line-height: 3em;
+.index-description > h1 {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 48px;
 }
 
-
-.index-color-container{
-    background-color: black;
-    height: 30em;
-    border-radius: 1em;
+.index-color-container {
+  background-color: black;
+  height: 200px;
+  border-radius: 16px;
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*login*/
-#login-main{
-    width: 32em;
-    height: 32em;
-    margin-top: 10%;
-    margin-bottom: 5%;
+.form-box {
+  background-color: rgb(60, 60, 46, 0.8);
+  width: 275px;
+  height: 500px;
+  padding: 32px;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }
 
-.form-box{
-    background-color: rgb(60, 60, 46, 0.8);
-    padding: 2em;   
-    border-radius: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10%;
+.login-logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  margin-bottom: 20px;
 }
 
-.login-logo{
-    width: 15em;
-    height: 15em;
-    margin: 2em;
-    border-radius: 1em;
+label {
+  display: block;
+  font-size: 12px;
+  line-height: 32px;
+  display: flex;
+  color: antiquewhite;
 }
 
-label{
-    display: block;
-    font-size: 1em;
-    line-height: 2em;
-    display: flex;
-    color: antiquewhite;
+input {
+  display: block;
+  width: 200px;
+  display: flex;
+  border-radius: 10px;
+  height: 32px;
 }
 
-input{
-    display: block;
-    width: 20em;
-    display: flex;
-    border-radius: .5em;
-    height: 1.5em;
-}
-
-#login-btn{
-    margin-top: 2em;
-    height: 2em;
-    width: 15em;
-    background-color: rgb(61, 139, 61);
-    border-radius: .25em;
-    color: rgb(227, 222, 158);
-    margin-top: 2.5em;
+#login-btn {
+  margin-top: 32px;
+  height: 32px;
+  width: 240px;
+  background-color: rgb(61, 139, 61);
+  border-radius: 5px;
+  color: rgb(227, 222, 158);
+  margin-top: 35px;
 }
 
 /*about*/
+
+#about-main {
+  display: flex;
+  justify-content: center;
+}
+
 .about-information {
-    background-color: rgb(60, 60, 46, 0.8);
-    width: 60em;
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    border-radius: 1em;
+  background-color: rgb(60, 60, 46, 0.8);
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  border-radius: 1em;
 }
 
 .about-description {
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    color: antiquewhite;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
 }
 
 #about-title {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .about-desc-1 {
-    display: flex;
-    align-items: center;
-    margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
 }
 
 .about-desc-img1 {
-    max-width: 40%;
-    margin: 2%;
+  max-width: 100%;
+  margin: 2%;
 }
 
 .about-desc-2 {
-    display: flex;
-    align-items: center;
-    margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
 }
 
 .about-desc-img2 {
-    max-width: 40%;
-    margin: 2%;
+  max-width: 100%;
+  margin: 2%;
 }
 
 .about-desc-3 {
-    display: flex;
-    align-items: center;
-    margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
 }
 
 .about-desc-img3 {
+  max-width: 100%;
+  margin: 2%;
+}
+
+.about-main {
+  height: 200em;
+}
+
+/* Home Page*/
+/* Home - tablet */
+@media (min-width: 768px) {
+  #navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 300px;
+    margin-top: 80px;
+    font-size: large;
+  }
+
+  #index-main {
+    height: 700px;
+  }
+
+  .index-color-container {
+    width: 600px;
+  }
+
+  .index-img {
+    height: 400px;
+  }
+}
+/* Home - desktop */
+@media (min-width: 1024px) {
+  .navbar-logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+  }
+
+  .index-color-container {
+    height: 230px;
+  }
+
+  .index-img {
+    height: 300px;
+  }
+
+  .index-description {
+    margin: 0 auto;
+    width: 320px;
+    color: antiquewhite;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .index-description > h1 {
+    font-size: 20px;
+  }
+}
+/* Login page */
+/* Login tablet */
+@media (min-width: 768px) {
+  .login-logo {
+    margin-bottom: 50px;
+  }
+
+  .login-btn {
+    width: 500px;
+  }
+
+  .form-box {
+    width: 700px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  .about-desc-img1 {
+    max-width: 70%;
+  }
+
+  .about-desc-img2 {
+    max-width: 70%;
+  }
+
+  .about-desc-img3 {
+    max-width: 70%;
+  }
+}
+
+/* Login - desktop */
+@media (min-width: 1024px) {
+  .login-logo {
+    width: 300px;
+    height: 300px;
+  }
+
+  .form-box {
+    height: 600px;
+  }
+
+  .about-desc-1 {
+    flex-wrap: nowrap;
+  }
+
+  .about-desc-img1 {
     max-width: 40%;
-    margin: 2%;
+  }
+
+  .about-desc-2 {
+    flex-wrap: nowrap;
+  }
+
+  .about-desc-img2 {
+    max-width: 40%;
+  }
+
+  .about-desc-3 {
+    flex-wrap: nowrap;
+  }
+
+  .about-desc-img3 {
+    max-width: 40%;
+  }
 }
-
-.about-main{
-    height: 200em;
-}
-
-
-
-/* media */
-/*login page*/
-/*Phone*/
-/* @media (max-width: 767px) {
-    body {
-        min-width: 320px;
-        font-size: 1em;
-    }
-} */
-
-/*Tablet*/
-/* @media (min-width: 768px) {
-    body {
-        font-size: 1.5em;
-    }
-
-    .input{
-        width: 22em;
-        height: 2em;
-        }
-
-    #login-btn{
-        height: 3em;
-        width: 21em;
-        margin-top: 2.5em;
-    }
-} */
-
-/*Desktop*/
-/* @media (min-width: 1024px) {
-    body {
-        font-size: 2em;
-        max-width: 1920px;
-    }
-
-    .input{
-        width: 23em;
-        height: 2.5em;
-        }
-    
-    #login-btn{
-        height: 3em;
-        width: 20em;
-        margin-top: 2.5em;
-    }
-
-} */
