@@ -1,390 +1,387 @@
 * {
-  box-sizing: border-box;
-}
-
-body {
-  box-sizing: border-box;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-image: url("../images/img1.JPG");
-  background-size: cover;
-  font-family: "Lexend Deca";
-  padding: 0;
-  margin: 0;
-}
-
-/*footer*/
-#footer {
-  color: white;
-  text-align: center;
-  padding: 16px;
-  bottom: 0;
-  width: 100%;
-  font-size: smaller;
-}
-
-/*navbar*/
-#header {
-  /* position: absolute; */
-  width: 100%;
-  height: 160px;
-  top: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: rgb(28, 32, 28);
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  color: antiquewhite;
-}
-
-.navbar-logo {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-top: 40px;
-}
-
-#navbar {
-  width: 100%;
-  height: 48px;
-  display: flex;
-  justify-content: center;
-}
-
-.nav-links {
-  text-align: right;
-  justify-content: space-around;
-  line-height: 32px;
-  font-size: 16px;
-}
-
-/*index*/
-.index-color-gradient {
-  background: linear-gradient(to right, #556b2f, #8b4513);
-  border-radius: 1em;
-  padding: 8px;
-}
-
-.index-img {
-  height: 165px;
-  border-radius: 16px;
-}
-
-#index-main {
-  background-color: rgb(60, 60, 46, 0.8);
-  width: 90%;
-  height: 410px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  border-radius: 16px;
-}
-
-.index-description {
-  margin: 0 auto;
-  width: 320px;
-  color: antiquewhite;
-  font-size: 11px;
-  text-align: center;
-}
-
-.index-description > h1 {
-  font-size: 15px;
-  text-align: center;
-  margin-bottom: 16px;
-  line-height: 48px;
-}
-
-.index-color-container {
-  background-color: black;
-  height: 200px;
-  border-radius: 16px;
-  width: 250px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/*login*/
-.form-box {
-  background-color: rgb(60, 60, 46, 0.8);
-  width: 275px;
-  height: 500px;
-  padding: 32px;
-  border-radius: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.login-logo {
-  width: 200px;
-  height: 200px;
-  border-radius: 16px;
-  margin-bottom: 20px;
-}
-
-label {
-  display: block;
-  font-size: 12px;
-  line-height: 32px;
-  display: flex;
-  color: antiquewhite;
-}
-
-input {
-  display: block;
-  width: 200px;
-  display: flex;
-  border-radius: 10px;
-  height: 32px;
-}
-
-#login-btn {
-  margin-top: 32px;
-  height: 32px;
-  width: 240px;
-  background-color: rgb(61, 139, 61);
-  border-radius: 5px;
-  color: rgb(227, 222, 158);
-  margin-top: 35px;
-}
-
-/*about*/
-
-#about-main {
-  display: flex;
-  justify-content: center;
-}
-
-.about-information {
-  background-color: rgb(60, 60, 46, 0.8);
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  border-radius: 1em;
-}
-
-.about-description {
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  color: antiquewhite;
-}
-
-#about-title {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.about-desc-1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  text-align: center;
-}
-
-.about-desc-img1 {
-  max-width: 100%;
-  margin: 2%;
-}
-
-.about-desc-2 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 10px;
-  justify-content: center;
-  text-align: center;
-}
-
-.about-desc-img2 {
-  max-width: 100%;
-  margin: 2%;
-}
-
-.about-desc-3 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 10px;
-  justify-content: center;
-  text-align: center;
-}
-
-.about-desc-img3 {
-  max-width: 100%;
-  margin: 2%;
-}
-
-.about-main {
-  height: 200em;
-}
-
-
-
-/* Home Page*/
-/* Home - tablet */
-@media (min-width: 768px) {
-    #navbar{
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .nav-links{
-        display: flex;
-        justify-content: space-around;
-        width: 500px;
-        height: 300px;
-        margin-top: 80px;
-        font-size: large;
-    }
-
-    #index-main{
-        height: 700px;
-    }
-
-    .index-color-container{
-        width: 600px;
-    }
-
-    .index-img{
-      width: 600px;
-      height: 400px;
-    }
-}
-/* Home - desktop */
-@media (min-width: 1024px) {
-    .navbar-logo{
-        width: 100px;
-        height: 100px;
-        margin-top: 30px;
-    }
-
-    #index-main{
-        height: 800px;
-    }
-    .index-color-container{
-      height: 230px;
-      width: 800px;
-    }
-
-    .index-img{
-        height: 500px;
-        width: 800px;
-    }
-
-    .index-description{
-        margin: 0 auto;
-        width: 320px;
-        color: antiquewhite;
-        font-size: 13px;
-        text-align: center;
-    }
-    
-    .index-description>h1{
-        font-size: 20px;
-    }
-} 
-
-/* Login page */
-/* Login tablet */
-@media (min-width: 768px) {
-  .login-logo {
-    margin-bottom: 50px;
+    box-sizing: border-box;
   }
-
-  .login-btn {
-    width: 500px;
-  }
-
-  .form-box {
-    width: 700px;
-  }
-
-  label {
-    font-size: 14px;
-  }
-
-  input {
-    width: 300px;
-  }
-
-  .about-desc-img1 {
-    max-width: 70%;
-  }
-
-  .about-desc-img2 {
-    max-width: 70%;
-  }
-
-  .about-desc-img3 {
-    max-width: 70%;
-  }
-}
-
-/* Login - desktop */
-@media (min-width: 1024px) {
-  .login-logo {
-    width: 300px;
-    height: 300px;
-  }
-
-  .form-box {
-    height: 600px;
-  }
-
-  .about-desc-1 {
-    flex-wrap: nowrap;
-  }
-
-  .about-desc-img1 {
-    max-width: 40%;
-  }
-
-  .about-desc-2 {
-    flex-wrap: nowrap;
-  }
-
-  .about-desc-img2 {
-    max-width: 40%;
-  }
-
-  .about-desc-3 {
-    flex-wrap: nowrap;
-  }
-
-  .about-desc-img3 {
-    max-width: 40%;
-  }
-}
-
-
-/* about us page */
-
-
-.our-team {
-    background-color: rgb(60, 60, 46, 0.8);
-    width: 80%;
-    margin: 0 auto;
+  
+  body {
+    box-sizing: border-box;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/img1.JPG");
+    background-size: cover;
+    font-family: "Lexend Deca";
+    padding: 0;
+    margin: 0;
+  }
+  
+  /*footer*/
+  #footer {
+    color: white;
+    text-align: center;
+    padding: 16px;
+    bottom: 0;
+    width: 100%;
+    font-size: smaller;
+  }
+  
+  /*navbar*/
+  #header {
+    /* position: absolute; */
+    width: 100%;
+    height: 160px;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(28, 32, 28);
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    color: antiquewhite;
+  }
+  
+  .navbar-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 40px;
+  }
+  
+  #navbar {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    text-align: right;
+    justify-content: space-around;
+    line-height: 32px;
+    font-size: 16px;
+  }
+  
+  /*index*/
+  .index-color-gradient {
+    background: linear-gradient(to right, #556b2f, #8b4513);
     border-radius: 1em;
+    padding: 8px;
+  }
+  
+  .index-img {
+    height: 165px;
+    border-radius: 16px;
+  }
+  
+  #index-main {
+    background-color: rgb(60, 60, 46, 0.8);
+    width: 90%;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 16px;
+  }
+  
+  .index-description {
+    margin: 0 auto;
+    width: 320px;
+    color: antiquewhite;
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .index-description > h1 {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 16px;
+    line-height: 48px;
+  }
+  
+  .index-color-container {
+    background-color: black;
+    height: 200px;
+    border-radius: 16px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /*login*/
+  .form-box {
+    background-color: rgb(60, 60, 46, 0.8);
+    width: 275px;
+    height: 500px;
+    padding: 32px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .login-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 12px;
+    line-height: 32px;
+    display: flex;
+    color: antiquewhite;
+  }
+  
+  input {
+    display: block;
+    width: 200px;
+    display: flex;
+    border-radius: 10px;
+    height: 32px;
+  }
+  
+  #login-btn {
+    margin-top: 32px;
+    height: 32px;
+    width: 240px;
+    background-color: rgb(61, 139, 61);
+    border-radius: 5px;
+    color: rgb(227, 222, 158);
+    margin-top: 35px;
+  }
+  
+  /*about*/
+  
+  #about-main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-information {
+    background-color: rgb(60, 60, 46, 0.8);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 1em;
+  }
+  
+  .about-description {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+  }
+  
+  #about-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about-desc-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .about-desc-img1 {
+    max-width: 100%;
+    margin: 2%;
+  }
+  
+  .about-desc-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about-desc-img2 {
+    max-width: 100%;
+    margin: 2%;
+  }
+  
+  .about-desc-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .about-desc-img3 {
+    max-width: 100%;
+    margin: 2%;
+  }
+  
+  .about-main {
+    height: 200em;
+  }
+  
+  
+  
+  /* Home Page*/
+  /* Home - tablet */
+  @media (min-width: 768px) {
+      #navbar{
+          display: flex;
+          justify-content: space-around;
+      }
+  
+      .nav-links{
+          display: flex;
+          justify-content: space-around;
+          width: 500px;
+          height: 300px;
+          margin-top: 80px;
+          font-size: large;
+      }
+  
+      #index-main{
+          height: 700px;
+      }
+  
+      .index-color-container{
+          width: 600px;
+      }
+  
+      .index-img{
+        width: 600px;
+        height: 400px;
+      }
+  }
+  /* Home - desktop */
+  @media (min-width: 1024px) {
+      .navbar-logo{
+          width: 100px;
+          height: 100px;
+          margin-top: 30px;
+      }
+  
+      #index-main{
+          height: 800px;
+      }
+      .index-color-container{
+        height: 230px;
+        width: 800px;
+      }
+  
+      .index-img{
+          height: 500px;
+          width: 800px;
+      }
+  
+      .index-description{
+          margin: 0 auto;
+          width: 320px;
+          color: antiquewhite;
+          font-size: 13px;
+          text-align: center;
+      }
+      
+      .index-description>h1{
+          font-size: 20px;
+      }
+  } 
+  
+  /* Login page */
+  /* Login tablet */
+  @media (min-width: 768px) {
+    .login-logo {
+      margin-bottom: 50px;
+    }
+  
+    .login-btn {
+      width: 500px;
+    }
+  
+    .form-box {
+      width: 700px;
+    }
+  
+    label {
+      font-size: 14px;
+    }
+  
+    input {
+      width: 300px;
+    }
+  
+    .about-desc-img1 {
+      max-width: 70%;
+    }
+  
+    .about-desc-img2 {
+      max-width: 70%;
+    }
+  
+    .about-desc-img3 {
+      max-width: 70%;
+    }
+  }
+  
+  /* Login - desktop */
+  @media (min-width: 1024px) {
+    .login-logo {
+      width: 300px;
+      height: 300px;
+    }
+  
+    .form-box {
+      height: 600px;
+    }
+  
+    .about-desc-1 {
+      flex-wrap: nowrap;
+    }
+  
+    .about-desc-img1 {
+      max-width: 40%;
+    }
+  
+    .about-desc-2 {
+      flex-wrap: nowrap;
+    }
+  
+    .about-desc-img2 {
+      max-width: 40%;
+    }
+  
+    .about-desc-3 {
+      flex-wrap: nowrap;
+    }
+  
+    .about-desc-img3 {
+      max-width: 40%;
+    }
+  }
+  
+  
+  /* about us page */
+
+.team-title {
+    border-radius: 1em;
+    background: #333; 
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px; 
 }
 
 .team-profile {
@@ -419,11 +416,28 @@ input {
     font-family: "Quicksand", sans-serif;
     font-size:10px;
   }
+  .team_member_1 h2,
+  .team_member_2 h2,
+  .team_member_3 h2{
+    text-align: center;
+}
   
   .team_member_1,
   .team_member_2,
-  .team_member_3
-  {
-    width: 50%;
-    float: left;
+  .team_member_3 {
+      background-color: rgba(60, 60, 46, 0.8);
+      border-radius: 1em;
+      padding: 20px;
+      max-width: 600px; 
+      margin: 15px; 
+      flex-direction: column;
+      align-items: center; 
   }
+
+.team_member_1 img,
+.team_member_2 img,
+.team_member_3 img {
+    display: block;
+    margin: 0 auto; 
+}
+
