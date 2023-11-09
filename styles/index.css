@@ -443,6 +443,10 @@
 
 
  @media (min-width: 1024px) {
+
+  .flex-container>h2{
+    Margin-left: 10px”}
+    
   .team_member_1,
   .team_member_2,
   .team_member_3 {
