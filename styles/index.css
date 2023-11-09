@@ -441,3 +441,39 @@
     margin: 0 auto; 
 }
 
+
+ @media (min-width: 1024px) {
+  .team_member_1,
+  .team_member_2,
+  .team_member_3 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      max-width: 800px;
+      margin: 15px auto;
+  } 
+
+  .team_member_1 img.about-desc-img1,
+  .team_member_2 img.about-desc-img1,
+  .team_member_3 img.about-desc-img1 {
+      margin-right: 20px; 
+  }
+
+  .team_member_1 h2,
+  .team_member_2 h2,
+  .team_member_3 h2,
+  .team_member_1 p.about-team,
+  .team_member_2 p.about-team,
+  .team_member_3 p.about-team {
+      text-align: left;
+      width: 100%;
+  }
+
+  .team_member_1 p.about-team,
+  .team_member_2 p.about-team,
+  .team_member_3 p.about-team {
+      margin-top: 10px;
+      max-width: 500px; 
+  }
+} 
+
